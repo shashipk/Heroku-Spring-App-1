@@ -19,4 +19,12 @@ public class Controller {
         return 74 * usd;
     }
 
+    @GetMapping("/newHi")
+    public String sayHello2(){
+        return "Hello new Coders!! 1st API";
+    }
+
+
+    
+
 }
