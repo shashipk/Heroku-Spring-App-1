@@ -24,10 +24,12 @@ public class Controller {
         return "Hello new Coders!! 1st API";
     }
 
-    @GetMapping("/hi2")
+    @GetMapping("/hi4")
     public String sayHello3(){
-        return "Hello Coders 3 3 3 !! 1st API";
+        return "Hello Coders 444444 !! 1st API";
     }
+
+    
 
 
 
