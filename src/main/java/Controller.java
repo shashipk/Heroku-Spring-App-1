@@ -24,6 +24,12 @@ public class Controller {
         return "Hello new Coders!! 1st API";
     }
 
+    @GetMapping("/hi2")
+    public String sayHello3(){
+        return "Hello Coders 3 3 3 !! 1st API";
+    }
+
+
 
     
 
